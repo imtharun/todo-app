@@ -19,7 +19,7 @@ export default function Task(props) {
 
   const allTasks = tasks.map((ele) => {
     return (
-      <div key={ele.id} className="p-2 borde w-96 rounded-full my-2 border border-slate-500">
+      <div key={ele.id} className="p-2 w-96 rounded-full my-2 border border-slate-500">
         <input
           className="text-black ml-2 "
           type="checkbox"

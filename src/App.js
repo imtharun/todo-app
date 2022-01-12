@@ -11,18 +11,19 @@ export default function App() {
     const inputValue = document.getElementById("taskAdder");
     event.preventDefault();
     if (inputValue.value === "") return;
-    console.log(inputValue.value);
+    const inputContent = inputValue.value;
     setTasks((prev) => {
       return [
         ...prev,
         {
           id: tasks.length + 1,
           key: tasks.length + 1,
-          content: inputValue.value,
+          content: inputContent,
           isChecked: false,
         },
       ];
     });
+    event.target.reset();
   };
 
   return (

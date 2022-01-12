@@ -12,7 +12,9 @@ export default function Main(props) {
         />
       </div>
       <div>
-        <button className="cursor-pointer m-2 bg-slate-300  rounded-3xl px-5 py-2">Add</button>
+        <button className="cursor-pointer m-2 bg-slate-300  rounded-3xl px-5 py-2">
+          Add
+        </button>
       </div>
     </form>
   );
