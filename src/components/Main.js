@@ -7,12 +7,12 @@ export default function Main(props) {
       <div>
         <input
           id="taskAdder"
-          className="w-[19rem] my-2 rounded-3xl border-2 border-slate-500 py-2 px-3"
+          className="w-60 md:w-96 my-2 rounded-3xl border-[1.5px] outline-none border-slate-500 py-2 px-3 shadow-xl"
           type="text"
         />
       </div>
       <div>
-        <button className="cursor-pointer m-2 bg-slate-300  rounded-3xl px-5 py-2">
+        <button className="shadow-xl cursor-pointer m-2 bg-slate-300 font-semibold rounded-3xl px-5 py-2 border-[1.5px] border-slate-500">
           Add
         </button>
       </div>

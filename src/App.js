@@ -27,7 +27,7 @@ export default function App() {
   };
 
   return (
-    <main>
+    <main className="font-roboto">
       <React.StrictMode>
         <Header />
         <Main clickHandler={clickHandler} />
